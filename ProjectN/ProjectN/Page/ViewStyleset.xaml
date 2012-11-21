@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="ProjectN.ViewStyleset"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="1080" Height="1920">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/background.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Stretch" Source="/ProjectN;component/Images/background.photo.png" Margin="739,487,-101,700" />
+        <Image HorizontalAlignment="Stretch" Source="/ProjectN;component/Images/background.photo.png" Margin="-106,485,744,702" />
+        <Image x:FieldModifier="public" x:Name="imgLeftStyleset" Height="576" Width="324" HorizontalAlignment="Stretch" Margin="-45,565,801,779" />
+        
+        <Image x:FieldModifier="public" x:Name="imgimgRightStyleset" Height="576" Width="324" HorizontalAlignment="Stretch" Margin="800,565,-45,779" />
+        <Image HorizontalAlignment="Stretch" Source="/ProjectN;component/Images/background.photo.png" Margin="164,221,168,460" />
+        <Image x:FieldModifier="public" x:Name="imgSelectedStyleset" Width="540" Height="960" HorizontalAlignment="Stretch" Margin="266,360,274,600" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="304" Margin="325,-43,0,0" VerticalAlignment="Top" Width="471" Source="/ProjectN;component/Images/button.coupon.png" Stretch="fill"/>
+        <Image HorizontalAlignment="Left" Height="209" Margin="855,10,0,0" VerticalAlignment="Top" Width="215" Source="/ProjectN;component/Images/button.more.detail.png" Stretch="fill"/>
+        <Image HorizontalAlignment="Left" Height="209" Margin="28,19,0,0" VerticalAlignment="Top" Width="215" Source="/ProjectN;component/Images/button.retake.png" Stretch="fill"/>
+        <Button x:FieldModifier="public" x:Name="btnProductDetail" HorizontalAlignment="Left" Height="209" Margin="855,10,0,0" VerticalAlignment="Top" Width="215" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:FieldModifier="public" x:Name="btnRetakePicture" HorizontalAlignment="Left" Height="209" Margin="28,19,0,0" VerticalAlignment="Top" Width="215" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:FieldModifier="public" x:Name="btnTakeCupon" HorizontalAlignment="Left" Height="228" Margin="338,0,0,0" VerticalAlignment="Top" Width="424" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Image x:FieldModifier="public" Name="imgGuideline" HorizontalAlignment="Left" Height="292" Margin="306,710,0,0" VerticalAlignment="Top" Width="470" Source="/ProjectN;component/Images/text.guide.swipe.png"/>
+        <Image HorizontalAlignment="Left" Height="446" Margin="100,1422,0,0" VerticalAlignment="Top" Width="874" Source="/ProjectN;component/Images/background.items.png" Stretch="Fill"/>
+        <Image x:FieldModifier="public" x:Name="imgUserLook1" HorizontalAlignment="Left" Height="308" Margin="148,1542,0,0" VerticalAlignment="Top" Width="172"/>
+        <Image x:FieldModifier="public" x:Name="imgUserLook2" HorizontalAlignment="Left" Height="308" Margin="445,1542,0,0" VerticalAlignment="Top" Width="172"/>
+        <Image x:FieldModifier="public" x:Name="imgUserLook3" HorizontalAlignment="Left" Height="308" Margin="739,1542,0,0" VerticalAlignment="Top" Width="173"/>
+        <Image HorizontalAlignment="Left" Height="84" Margin="445,1251,0,0" VerticalAlignment="Top" Width="86" Source="/ProjectN;component/Images/like.png"/>
+        <Label x:FieldModifier="public" x:Name="lblLikeCount" Content="0" HorizontalAlignment="Left" Height="82" Margin="504,1253,0,0" VerticalAlignment="Top" Width="165" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="RixGo B" FontSize="36"/>
+        
+
+    </Grid>
+</UserControl>

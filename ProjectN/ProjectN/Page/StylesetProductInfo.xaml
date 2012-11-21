@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="ProjectN.StylesetProductInfo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="1080" Height="1920">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/background.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="465" Margin="117,1345,0,0" VerticalAlignment="Top" Width="851" Source="/ProjectN;component/Images/background.product.white.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="238" Margin="0,1196,0,0" VerticalAlignment="Top" Width="1080" Source="/ProjectN;component/Images/wood.upper.perspectivity.thick.png" Stretch="Fill"/>
+        
+        <Image x:FieldModifier="public" Name="imgStylesetImage" HorizontalAlignment="Left" Height="956" Margin="42,300,0,0" VerticalAlignment="Top" Width="540"/>
+        <Label x:FieldModifier="public" Name="lblMainProductName" Content="상품이름" Margin="628,371,138,1468" FontSize="48" Foreground="#FF7E7E7E" FontWeight="Bold" />
+        <Image HorizontalAlignment="Left" Height="82" Margin="619,482,0,0" VerticalAlignment="Top" Width="261" Source="/ProjectN;component/Images/price.tag.png" Stretch="Fill"/>
+        <Label x:FieldModifier="public" x:Name="lblMainProductPrice" Content="가격" Height="54" VerticalAlignment="Top" Margin="0,494,262,0" FontWeight="Bold" FontSize="36" Foreground="White" HorizontalAlignment="Right" HorizontalContentAlignment="Right" Width="183"/>
+        <Image x:FieldModifier="public" Name="imgMainProduct" HorizontalAlignment="Left" Height="250" Margin="628,589,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label x:FieldModifier="public" Name="lblSubProductName" Content="" Margin="457,1497,309,342" FontSize="48"/>
+        <Label x:FieldModifier="public" Name="lblSubProductPrice" Content="" Height="54" VerticalAlignment="Top" Margin="457,1583,436,0" FontWeight="Bold" FontSize="36" Foreground="#FF767676" Background="White"/>
+        <Image x:FieldModifier="public" Name="imgSubProduct" HorizontalAlignment="Left" Height="250" Margin="178,1497,0,0" VerticalAlignment="Top" Width="250"/>
+        <Image HorizontalAlignment="Left" Height="206" Margin="840,37,0,0" VerticalAlignment="Top" Width="230" Source="/ProjectN;component/Images/button.close.highlight.png"/>
+        <Button x:FieldModifier="public" x:Name="btnClose" HorizontalAlignment="Left" Height="206" Margin="840,37,0,0" VerticalAlignment="Top" Width="200" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="44" Margin="635,310,0,0" VerticalAlignment="Top" Width="131" Source="/ProjectN;component/Images/text.name.png" Stretch="Fill"/>
+        <Image x:FieldModifier="public" x:Name="imgLike" HorizontalAlignment="Left" Height="206" Margin="42,37,0,0" VerticalAlignment="Top" Width="230" Source="/ProjectN;component/Images/button.like.png"/>
+        <Button x:FieldModifier="public" x:Name="btnLike" HorizontalAlignment="Left" Height="206" Margin="42,37,0,0" VerticalAlignment="Top" Width="200" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</UserControl>

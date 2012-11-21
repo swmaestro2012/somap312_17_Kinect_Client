@@ -1,0 +1,24 @@
+﻿<Window x:Class="ProjectN_Screen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MediaKit="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+        Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+    <Grid>
+        <MediaKit:VideoCaptureElement DesiredPixelWidth="1920"
+                DesiredPixelHeight="1080"
+                LoadedBehavior="Play"
+                FPS="30"
+                VideoCaptureDevice="{Binding SelectedItem, ElementName=videoCapDevices}"
+                VideoCaptureSource="{Binding SelectedItem.Name, ElementName=videoCapDevices}"                          
+                x:Name="videoElement" RenderTransformOrigin="0.5,0.5" Margin="-423,423,-423,421">
+            <MediaKit:VideoCaptureElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </MediaKit:VideoCaptureElement.RenderTransform>
+        </MediaKit:VideoCaptureElement>
+    </Grid>
+</Window>

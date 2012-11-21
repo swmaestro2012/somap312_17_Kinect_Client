@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="ProjectN.ReadMembership"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="1080" Height="1920">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/background.png"/>
+        </Grid.Background>
+        <Image x:FieldModifier="public" Name="imgBarcodeImg" HorizontalAlignment="Left" Height="700" Margin="186,296,0,0" VerticalAlignment="Top" Width="700"/>
+        <Image x:FieldModifier="public" Name="imgMembershipHolder" HorizontalAlignment="Left" Height="316" Margin="186,515,0,0" VerticalAlignment="Top" Width="700" Source="/ProjectN;component/Images/placeholder.membership.png"/>
+        <Image x:FieldModifier="public" x:Name="imgMembershipNotice" HorizontalAlignment="Left" Height="613" Margin="111,1106,0,0" VerticalAlignment="Top" Width="849" Source="/ProjectN;component/Images/text.guide.membership.png"/>
+        <Image HorizontalAlignment="Left" Height="238" Margin="0,1719,0,-37" VerticalAlignment="Top" Width="1080" Source="/ProjectN;component/Images/wood.upper.perspectivity.thick.png" Stretch="Fill"/>
+    </Grid>
+</UserControl>

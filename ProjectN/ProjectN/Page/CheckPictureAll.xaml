@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="ProjectN.CheckPictureAll"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="1080" Height="1920">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/background.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Stretch" Source="/ProjectN;component/Images/background.photo.png" Margin="3,152,7,-5" />
+        <Image x:Name="imgUserPicture" HorizontalAlignment="Left" Height="1377" VerticalAlignment="Top" Width="775" Margin="151,352,0,0"/>
+        <Image HorizontalAlignment="Left" Height="209" Margin="25,34,0,0" VerticalAlignment="Top" Width="215" Source="/ProjectN;component/Images/button.retake.png" Stretch="fill"/>
+        <Button x:FieldModifier="public" x:Name="btnReTakePicture" HorizontalAlignment="Left" Height="206" Margin="25,37,0,0" VerticalAlignment="Top" Width="200" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="209" Margin="835,34,0,0" VerticalAlignment="Top" Width="215" Source="/ProjectN;component/Images/button.styleset.png" Stretch="fill"/>
+        <Button x:FieldModifier="public" x:Name="btnViewStyleset" HorizontalAlignment="Left" Height="206" Margin="840,37,0,0" VerticalAlignment="Top" Width="210" Opacity="0">
+            <Button.OpacityMask>
+                <ImageBrush/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush/>
+            </Button.Foreground>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Image x:FieldModifier="public" x:Name="imgGuideline" HorizontalAlignment="Left" Height="292" Margin="318,776,0,0" VerticalAlignment="Top" Width="470" Source="/ProjectN;component/Images/text.guide.swipe.png"/>
+        
+    </Grid>
+</UserControl>

@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ProjectN.ReadBarcode"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="1080" Height="1920">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/ReadBarcodebackground.png"/>
+        </Grid.Background>
+        <Image x:FieldModifier="public" Name="imgBarcodeImg" HorizontalAlignment="Left" Height="700" Margin="186,296,0,0" VerticalAlignment="Top" Width="700"/>
+    </Grid>
+</UserControl>

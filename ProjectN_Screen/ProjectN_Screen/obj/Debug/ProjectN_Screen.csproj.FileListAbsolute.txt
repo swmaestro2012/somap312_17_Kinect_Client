@@ -1,0 +1,28 @@
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.exe.config
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.exe
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.pdb
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\bin\Debug\DirectShowLib-2005.dll
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\bin\Debug\WPFMediaKit.dll
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.csprojResolveAssemblyReference.cache
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\MainWindow.baml
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\MainWindow.g.cs
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\App.g.cs
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen_MarkupCompile.cache
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.g.resources
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.Properties.Resources.resources
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.csproj.GenerateResource.Cache
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.exe
+c:\users\gyuhyeon\documents\visual studio 2012\Projects\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.pdb
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.exe.config
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.exe
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.pdb
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.exe
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\bin\Debug\ProjectN_Screen.pdb
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\MainWindow.baml
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\MainWindow.g.cs
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\App.g.cs
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen_MarkupCompile.cache
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.g.resources
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.Properties.Resources.resources
+C:\Users\Public\Documents\ProjectN_Screen\ProjectN_Screen\obj\Debug\ProjectN_Screen.csproj.GenerateResource.Cache

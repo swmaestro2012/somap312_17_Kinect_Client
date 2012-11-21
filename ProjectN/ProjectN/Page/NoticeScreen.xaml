@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ProjectN.NoticeScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Width="854" Height="500">
+        <Grid.Background>
+            <ImageBrush ImageSource="/ProjectN;component/Images/background.notice.png"/>
+        </Grid.Background>
+        <Label x:Name="lblMessage" x:FieldModifier="public" Content="회원정보를 찾을 수 없습니다." HorizontalAlignment="Left" Margin="76,172,0,0" VerticalAlignment="Top" Height="218" Width="710" Foreground="#FF8F8F8F" FontFamily="RixGo B" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+    </Grid>
+</UserControl>

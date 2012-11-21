@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ProjectN.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:MediaKit="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+      xmlns:ac="clr-namespace:AdornedControl;assembly=AdornedControl"
+      xmlns:local="clr-namespace:ProjectN"
+      Width="1080" Height="1920" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+    <Grid Background="Transparent" Width="1080" Height="1920">
+        <TextBox x:FieldModifier="public" x:Name="txtBarcodeInput" HorizontalAlignment="Left" Height="23" Margin="0,1925,0,-28" Text="" VerticalAlignment="Top" Width="120" Focusable="True" TextChanged="txtBarcodeInput_TextChanged" Visibility="Hidden"/>
+        <ac:AdornedControl Name="LoadingAdorner" Panel.ZIndex="99999">
+            <ac:AdornedControl.AdornerContent>
+                <local:LoadingWait></local:LoadingWait>
+            </ac:AdornedControl.AdornerContent>
+        </ac:AdornedControl>
+        <MediaElement x:FieldModifier="public" x:Name="TimeCountdown" HorizontalAlignment="Left" Height="100" Margin="125,1925,0,-105" VerticalAlignment="Top" Width="100" Source="/ProjectN;component/Voice.mp3" Volume="100" LoadedBehavior="Manual" />
+        <MediaElement x:FieldModifier="public" x:Name="TimeShot" HorizontalAlignment="Left" Height="100" Margin="230,1925,0,-105" VerticalAlignment="Top" Width="100" Source="/ProjectN;component/Shot.wav" Volume="100" LoadedBehavior="Manual" />
+    </Grid>
+</UserControl>
